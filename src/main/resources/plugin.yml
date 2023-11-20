@@ -1,0 +1,4 @@
+name: GusKeepEye
+version: '${project.version}'
+main: me.gusandr.guskeepeye.Plugin
+api-version: '1.16'
