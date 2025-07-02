@@ -29,7 +29,7 @@ Minecraft plugin for monitoring suspicious players. Tracks chat messages, comman
 
 - **[Spigot API](https://www.spigotmc.org/wiki/spigot/)**  
   Minecraft server modification API
-- **[LiteBans](https://github.com/ruany/LiteBans)**  
+- **[LiteBans](https://gitlab.com/ruany/LiteBans/-/wikis/Permissions)**  
   Lightweight ban management system
 - **[Discord Webhooks](https://discord.com/developers/docs/resources/webhook)**  
   Discord's message delivery system
@@ -44,20 +44,17 @@ guskeepeye/
 │   └── main/
 │       ├── java/
 │       │   └── me/gusandr/guskeepeye
-│       │       ├── listeners/        # Event handlers
-│       │       ├── utils/            # Helper classes
-│       │       ├── GusKeepEye.java   # Main plugin class
-│       │       └── WebhookSender.java # Discord integration
+│       │       └── events/        # Event
+│       │              └── Event        # Event handlers
+│       │       ├── Plugin.java   # Main plugin class
 │       └── resources/
 │           ├── config.yml            # Plugin configuration
 │           └── plugin.yml            # Plugin metadata
-├── target/                           # Build output
 └── pom.xml                           # Project dependencies
 ```
 
 ### Directory Details
-- `listeners/`: Handles chat/command events and player tracking
-- `utils/`: Contains formatting and location calculation helpers
+- `events/`: Handles chat/command events and player tracking
 - `resources/`: Stores user-editable configuration files
 
 ## Configuration Example
