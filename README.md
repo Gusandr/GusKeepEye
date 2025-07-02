@@ -10,7 +10,7 @@ Minecraft plugin for monitoring suspicious players. Tracks chat messages, comman
 - Customizable datetime formatting
 - LiteBans API integration for moderation context
 
-## ## Example of sending content to discord (in Russian configuration)
+## Example of sending content to discord (in Russian configuration)
 
 ![Example message](img.png)
 
