@@ -20,14 +20,14 @@ public class Event implements Listener {
     @EventHandler
     public void onSendMessage(AsyncPlayerChatEvent e) {
         if (isUnderSurveillance(e.getPlayer())) {
-            sendWebhookMessage(e.getPlayer(), "СООБЩЕНИЕ", e.getMessage());
+            sendWebhookMessage(e.getPlayer(), "MESSAGE", e.getMessage());
         }
     }
 
     @EventHandler
     public void onSendCommand(PlayerCommandPreprocessEvent e) {
         if (isUnderSurveillance(e.getPlayer())) {
-            sendWebhookMessage(e.getPlayer(), "КОМАНДУ", e.getMessage());
+            sendWebhookMessage(e.getPlayer(), "COMMAND", e.getMessage());
         }
     }
 
@@ -54,7 +54,7 @@ public class Event implements Listener {
         } catch (Exception exception) {
             if (!(exception.getCause() instanceof IllegalArgumentException)) {
                 Plugin.getINSTANCE().getLogger().warning(ChatColor.RED +
-                        "\nУ тебя какая-то ошибка с вебхуком в конфиге (скорее всего)");
+                        "\nYou have a webhook error in your config (most likely)");
             }
         }
     }
