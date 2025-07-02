@@ -8,7 +8,6 @@ Minecraft plugin for monitoring suspicious players. Tracks chat messages, comman
 - Discord webhook integration with rich message formatting
 - Location tracking and nearby player detection
 - Customizable datetime formatting
-- LiteBans API integration for moderation context
 
 ## Example of sending content to discord (in Russian configuration)
 
@@ -33,8 +32,6 @@ Minecraft plugin for monitoring suspicious players. Tracks chat messages, comman
 
 - **[Spigot API](https://www.spigotmc.org/wiki/spigot/)**  
   Minecraft server modification API
-- **[LiteBans](https://gitlab.com/ruany/LiteBans/-/wikis/Permissions)**  
-  Lightweight ban management system
 - **[Discord Webhooks](https://discord.com/developers/docs/resources/webhook)**  
   Discord's message delivery system
 - **[Java SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html)**  
