@@ -43,7 +43,7 @@ guskeepeye/
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── com/guskeep/
+│       │   └── me/gusandr/guskeepeye
 │       │       ├── listeners/        # Event handlers
 │       │       ├── utils/            # Helper classes
 │       │       ├── GusKeepEye.java   # Main plugin class
@@ -64,16 +64,13 @@ guskeepeye/
 
 ```yaml
 discord:
-  message: "**Игрок %s написал в чат:**\n%s\n**Координаты:** %s\n**Игроки рядом:** %s\n**Время:** %s"
-  url: "https://discord.com/api/webhooks/..."
+  message: "**Player %s whom you said to watch wrote %s in the chat:**\n%s\n**His coordinates:** %s\n**Players within a 70 block radius:** %s\n**Date:**%s"
+url: "" # Link to discord's webhook
 
 players-under-surveillance:
-  - "Player1"
-  - "Player2"
+  - "Phages"
+  - "musl1"
+# - "" and so on
 
 date-format: "dd.MM.yyyy HH:mm:ss"
 ```
-
-## Disclaimer
-
-> This project is intended for educational purposes only. Use responsibly in compliance with all applicable laws and server regulations.
