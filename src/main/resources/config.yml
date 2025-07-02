@@ -13,13 +13,12 @@
 
 
 discord:
-  # message лучше сильно не изменять, я немного намудрил с ним, ну уж извиняйте, в будущем обязательно сделаю как положено
-  message: "**Игрок %s за котором вы сказали наблюдать написал %s в чат:**\n%s\n**Его координаты:** %s\n**Игроки в радиусе 70 блоков:** %s\n**Дата:** %s"
-  url: "" # Ссылка на вебхук дискорда
+  message: "**Player %s whom you said to watch wrote %s in the chat:**\n%s\n**His coordinates:** %s\n**Players within a 70 block radius:** %s\n**Date:**%s"
+url: "" # Link to discord's webhook
 
 players-under-surveillance:
-  - "Fagi"
+  - "Phages"
   - "musl1"
-# - "" и так далее
+# - "" and so on
 
 date-format: "dd.MM.yyyy HH:mm:ss"
