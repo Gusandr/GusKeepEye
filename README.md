@@ -10,6 +10,10 @@ Minecraft plugin for monitoring suspicious players. Tracks chat messages, comman
 - Customizable datetime formatting
 - LiteBans API integration for moderation context
 
+## Example of sending content to discord
+
+![Example message](img.png)
+
 ## Technical Implementation
 
 - **Event-Driven Architecture**  
@@ -57,7 +61,7 @@ guskeepeye/
 - `events/`: Handles chat/command events and player tracking
 - `resources/`: Stores user-editable configuration files
 
-## Configuration Example
+## Configuration
 
 ```yaml
 discord:
