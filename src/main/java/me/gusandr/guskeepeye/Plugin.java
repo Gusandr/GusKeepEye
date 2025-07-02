@@ -27,8 +27,8 @@ public final class Plugin extends JavaPlugin {
                 "                                                            \n" +
                 "                                                            ");
         getServer().getLogger().info( ChatColor.GREEN +
-                "Плагин был разработан Gusandr!\nТекущая версия плагина: " + this.getDescription().getVersion()
-                + "\nТех. поддержка: ebli (discord) @sysclap (vk)");
+                "The plugin was developed by Gusandr!\nCurrent version of the plugin: " + this.getDescription().getVersion()
+                                     + "\nTech. support: ebli (discord)");
 
         getServer().getPluginManager().registerEvents(new Event(), this);
     }
